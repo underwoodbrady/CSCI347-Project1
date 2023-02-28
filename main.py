@@ -8,6 +8,12 @@ from normalizeStandard import normalizeStandard
 from covarianceMatrix import covarianceMatrix
 from labelEncode import labelEncode 
 
+IN_FILE = './machine.data'
+
+#Convert data from 'machine.data' into np arrays
+def handleData():
+    pass
+
 #Call each of the above functions with the dataset
 def main():
     multidimensionalMean()
