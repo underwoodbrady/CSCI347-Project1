@@ -9,6 +9,7 @@ from normalizeStandard import normalizeStandard
 from covarianceMatrix import covarianceMatrix
 from labelEncode import labelEncode 
 
+#comment
 #Call each of the above functions with the dataset
 def main():
     handleData();
