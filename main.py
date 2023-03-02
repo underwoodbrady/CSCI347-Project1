@@ -11,14 +11,18 @@ from labelEncode import labelEncode
 
 #Call each of the above functions with the dataset
 def main():
+    x = np.array([40, 10, 50, 16])
+    y = np.array([23, 59, 30, 7])
     handleData();
-    multidimensionalMean()
-    sampleCovariance()
-    attributeCorrelation()
-    normalizeRange()
-    normalizeStandard()
-    covarianceMatrix()
-    labelEncode()
+    multidimensionalMean(x)
+    #print(sampleCovariance(x, y))
+    #print(np.cov(x, y))
+    sampleCovariance(x, y)
+    attributeCorrelation(x, y)
+    normalizeRange(x)
+    normalizeStandard(x)
+    covarianceMatrix(handleData())
+    #labelEncode()
 
 if( __name__ == "__main__"):
     main()
