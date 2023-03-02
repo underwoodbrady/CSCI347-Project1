@@ -1,8 +1,5 @@
 import numpy as np
 
-from multidimensionalMean import multidimensionalMean
-
-#A function that computes the covariance matrix of a data set. 
 def covarianceMatrix(inp:np.ndarray):
     n = inp.shape[1]
     means = np.sum(inp, axis=1) / n

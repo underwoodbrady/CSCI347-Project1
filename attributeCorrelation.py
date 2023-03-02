@@ -16,5 +16,5 @@ def attributeCorrelation(vec1:np.array, vec2:np.array):
     result = numerator/math.sqrt(denominatorLeft*denominatorRight)
     return result
 
-print(attributeCorrelation(np.array([4,2,5,6,7]), np.array([4,2,5,6,7])))
+#print(attributeCorrelation(np.array([4,2,5,6,7]), np.array([4,2,5,6,7])))
 

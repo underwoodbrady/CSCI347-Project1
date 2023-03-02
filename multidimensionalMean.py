@@ -8,3 +8,5 @@ def multidimensionalMean(arr:np.ndarray):
         count += 1
         total += value
     return total / count
+
+
